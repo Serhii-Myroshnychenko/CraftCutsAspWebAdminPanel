@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CraftCutsAspWebAdminPanel.Data;
 
 namespace CraftCutsAspWebAdminPanel
 {
@@ -23,7 +24,10 @@ namespace CraftCutsAspWebAdminPanel
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddControllersWithViews();
+            services.AddDbContext<CraftCutsNewDB2Context>();
+            services.AddAuthentication();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
