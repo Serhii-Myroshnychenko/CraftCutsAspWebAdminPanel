@@ -12,6 +12,7 @@ namespace CraftCutsAspWebAdminPanel.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        const string SessionLog = "Login";
 
         public HomeController(ILogger<HomeController> logger)
         {
