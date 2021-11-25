@@ -69,3 +69,15 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+.input1 {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+LabelFor {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+TextBoxFor {
+    border: 1px solid black;
+    border-radius: 5px;
+}
